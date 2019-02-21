@@ -12,7 +12,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
   
-  <link rel="stylesheet" href="/styles/main.min.77e50226850b232024cd7f79b6a66ba08e0171e1bf3ae3b82accafaaf9f75f7f.css">
+  <link rel="stylesheet" href="/styles/main.min.52225fe154efa4e411f38c14ca925313f9b8771ccdc470f0f14c6410283342b7.css">
 </head>
 <body>
     <header><nav>
@@ -24,7 +24,7 @@
     
     <li><a href="/sprzet" title="">Sprzęt</a></li>
     
-    <li><a href="/nagrania" title="">Nagrania</a></li>
+    <li><a href="/realizacje" title="">Realizacje</a></li>
     
     <li><a href="/goscie" title="">Goście</a></li>
     
@@ -33,19 +33,56 @@
 </header>
     <main aria-role="main">
 
-<div class="details">
-  <div class="image">
-    <img src="goscie.jpg" alt="" />
-  </div>
-  <div class="content">
+<div class="gallery">
+  <div class="grid">
+  
     
-
-<h1 id="goście">Goście</h1>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum et justo a iaculis. Etiam tincidunt, mi id pulvinar lacinia, enim justo condimentum ligula, sit amet rutrum tellus dolor a lectus. Suspendisse at diam venenatis, iaculis turpis id, rhoncus turpis.</p>
-
+    <a class="grid-item" href="/goscie/bob-marley.jpg">
+      <img src="/goscie/bob-marley_huaff6289caa95e685c50377373010dbcc_77331_640x0_resize_q75_box.jpg" alt="Bob Marley" title="Bob Marley" />
+    </a>
+  
+    
+    <a class="grid-item" href="/goscie/david-bowie.jpg">
+      <img src="/goscie/david-bowie_hu10d96f7c81783765e52d5be40448e022_60094_640x0_resize_q75_box.jpg" alt="David Bowie" title="David Bowie" />
+    </a>
+  
+    
+    <a class="grid-item" href="/goscie/freddie-mercury.jpg">
+      <img src="/goscie/freddie-mercury_hu3cf31736e7f0be203ff034b26fe47f76_412776_640x0_resize_q75_box.jpg" alt="Freddie Mercury" title="Freddie Mercury" />
+    </a>
+  
+    
+    <a class="grid-item" href="/goscie/jimi-hendrix.jpg">
+      <img src="/goscie/jimi-hendrix_hu9bbb241bf72456f343b5dabfab6a9461_317094_640x0_resize_q75_box.jpg" alt="jimi-hendrix.jpg" title="jimi-hendrix.jpg" />
+    </a>
+  
+    
+    <a class="grid-item" href="/goscie/john-lennon.jpg">
+      <img src="/goscie/john-lennon_hu5baba41da313aa6e80e516f4e1f8ce45_119182_640x0_resize_q75_box.jpg" alt="John Lennon" title="John Lennon" />
+    </a>
+  
+    
+    <a class="grid-item" href="/goscie/lemmy.jpg">
+      <img src="/goscie/lemmy_huc5c14d4e089512ca8a98e0d10367cf71_187337_640x0_resize_q75_box.jpg" alt="Ian Fraser Kilmister a.k.a Lemmy" title="Ian Fraser Kilmister a.k.a Lemmy" />
+    </a>
+  
+    
+    <a class="grid-item" href="/goscie/michael-jackson.jpg">
+      <img src="/goscie/michael-jackson_hud805db150063885656da0be54224d631_186569_640x0_resize_q75_box.jpg" alt="Michale Jackson" title="Michale Jackson" />
+    </a>
+  
+    <div class="clearfix"></div>
   </div>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="crossorigin="anonymous"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script>
+  var $grid = $('.grid').imagesLoaded(function() {
+    $grid.masonry({ itemSelector: '.grid-item', columnWidth: '.grid-item', percentPosition: true });
+  });
+</script>
 
 </main>
     <footer><ul>
