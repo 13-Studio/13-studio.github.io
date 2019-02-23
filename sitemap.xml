@@ -3,11 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/sprzet/elektronika/</loc>
+    <loc>/realizacje/nagranie-1/</loc>
   </url>
   
   <url>
-    <loc>/sprzet/instrumenty/</loc>
+    <loc>/realizacje/nagranie-2/</loc>
+  </url>
+  
+  <url>
+    <loc>/realizacje/teledysk-1/</loc>
+  </url>
+  
+  <url>
+    <loc>/sprzet/elektronika/elektronika/</loc>
+  </url>
+  
+  <url>
+    <loc>/sprzet/instrumenty/instrumenty/</loc>
   </url>
   
   <url>
