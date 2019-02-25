@@ -15,14 +15,6 @@
   </url>
   
   <url>
-    <loc>/sprzet/elektronika/elektronika/</loc>
-  </url>
-  
-  <url>
-    <loc>/sprzet/instrumenty/instrumenty/</loc>
-  </url>
-  
-  <url>
     <loc>/</loc>
   </url>
   
@@ -32,11 +24,31 @@
   </url>
   
   <url>
+    <loc>/sprzet/elektronika/</loc>
+  </url>
+  
+  <url>
+    <loc>/sprzet/instrumenty/gitara-1/</loc>
+  </url>
+  
+  <url>
     <loc>/goscie/</loc>
   </url>
   
   <url>
     <loc>/info/</loc>
+  </url>
+  
+  <url>
+    <loc>/sprzet/instrumenty/</loc>
+  </url>
+  
+  <url>
+    <loc>/sprzet/elektronika/mixer-1/</loc>
+  </url>
+  
+  <url>
+    <loc>/sprzet/elektronika/mixer-2/</loc>
   </url>
   
   <url>
