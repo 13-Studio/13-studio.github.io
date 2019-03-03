@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Instrymenty on 13 Studio</title>
+    <link>/sprzet/elektronika2/</link>
+    <description>Recent content in Instrymenty on 13 Studio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-pl</language>
+    
+	<atom:link href="/sprzet/elektronika2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Explorer</title>
+      <link>/sprzet/elektronika2/gitara-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sprzet/elektronika2/gitara-1/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ante velit, tempor ac elementum quis, fringilla quis odio. Phasellus nec vehicula dolor, eget ornare quam. Quisque bibendum malesuada tellus at mattis. Nulla lacus eros, porta eu mattis at, sagittis nec enim. Aliquam erat volutpat. Suspendisse efficitur ante a sem dictum, eu blandit eros cursus. Curabitur commodo pharetra eleifend.</description>
+    </item>
+    
+  </channel>
+</rss>
