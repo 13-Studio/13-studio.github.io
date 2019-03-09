@@ -10,10 +10,13 @@
   
   <link rel="apple-touch-icon" href="icon.png">
 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/slick.css"/>
 
   
-  <link rel="stylesheet" href="/styles/main.min.546aa8321f20e1b0dc40f82826364c4a62008b23291248af1565c253abf2c40d.css">
+  <link rel="stylesheet" href="/styles/main.min.c3a0082b34c7e1dc37e04eec8bafef49b5311e3f733a51a7f8c7d64ae7e9aacb.css">
+  <script src="/jquery.min.js"></script>
+  <script src="/slick.min.js"></script>
 </head>
 <body>
     <header><nav>
@@ -35,7 +38,22 @@
     <main aria-role="main">
 
 <div class="home">
-  <img src="home.jpg" alt="" />
+  <div class="slides">
+    
+      
+      <img src="/home_hu0d4570da2777559c136f40d935c1dc9a_483034_1920x1280_fill_q75_box_smart1.jpg" alt="13 Studio" class="d-block w-100" />
+    
+      
+      <img src="/home2_hu6b037996a206f7f4fc8b19e8300a186a_3185084_1920x1280_fill_q75_box_smart1.jpg" alt="13 Studio" class="d-block w-100" />
+    
+      
+      <img src="/home3_hu73f4e55c125728ac8ee78102cfa84e6b_1045941_1920x1280_fill_q75_box_smart1.jpg" alt="13 Studio" class="d-block w-100" />
+    
+      
+      <img src="/home4_hu8cb3b7e7a8378ab697447643b5d297e4_2849549_1920x1280_fill_q75_box_smart1.jpg" alt="13 Studio" class="d-block w-100" />
+    
+  </div>
+
   <div class="overlay-content">
     
 
@@ -46,6 +64,21 @@ Sed dapibus tellus at neque tempus mollis.</p>
 
   </div>
 </div>
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+  $('.slides').slick({
+    dots: true,
+    arrows: false,
+    infinite: true,
+    autoplay: true,
+    speed: 1000,
+    fade: true,
+    cssEase: 'linear'
+  });
+});
+</script>
 
 </main>
     <footer><ul class="links">
