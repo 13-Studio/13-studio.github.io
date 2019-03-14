@@ -11,7 +11,27 @@
   </url>
   
   <url>
+    <loc>/realizacje/nagranie-3/</loc>
+  </url>
+  
+  <url>
     <loc>/realizacje/teledysk-1/</loc>
+  </url>
+  
+  <url>
+    <loc>/realizacje/teledysk-2/</loc>
+  </url>
+  
+  <url>
+    <loc>/sprzet/elektronika2/gitara-1/</loc>
+  </url>
+  
+  <url>
+    <loc>/sprzet/instrumenty2/gitara-1/</loc>
+  </url>
+  
+  <url>
+    <loc>/sprzet/instrumenty/gitara-1/</loc>
   </url>
   
   <url>
@@ -25,18 +45,6 @@
   
   <url>
     <loc>/sprzet/elektronika/</loc>
-  </url>
-  
-  <url>
-    <loc>/sprzet/elektronika2/gitara-1/</loc>
-  </url>
-  
-  <url>
-    <loc>/sprzet/instrumenty2/gitara-1/</loc>
-  </url>
-  
-  <url>
-    <loc>/sprzet/instrumenty/gitara-1/</loc>
   </url>
   
   <url>
@@ -60,11 +68,11 @@
   </url>
   
   <url>
-    <loc>/sprzet/elektronika/mixer-1/</loc>
+    <loc>/sprzet/elektronika/mixery/</loc>
   </url>
   
   <url>
-    <loc>/sprzet/elektronika/mixer-2/</loc>
+    <loc>/sprzet/elektronika/preampy/</loc>
   </url>
   
   <url>

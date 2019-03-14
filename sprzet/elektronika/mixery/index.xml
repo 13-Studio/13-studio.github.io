@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mixery on 13 Studio</title>
+    <link>/sprzet/elektronika/mixery/</link>
+    <description>Recent content in Mixery on 13 Studio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pl-pl</language>
+    
+	<atom:link href="/sprzet/elektronika/mixery/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
