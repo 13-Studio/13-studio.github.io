@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/</loc>
+  </url>
+  
+  <url>
     <loc>/realizacje/nagranie-1/</loc>
   </url>
   
@@ -23,28 +27,8 @@
   </url>
   
   <url>
-    <loc>/sprzet/elektronika2/gitara-1/</loc>
-  </url>
-  
-  <url>
-    <loc>/sprzet/instrumenty2/gitara-1/</loc>
-  </url>
-  
-  <url>
-    <loc>/sprzet/instrumenty/gitara-1/</loc>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-  </url>
-  
-  <url>
     <loc>/categories/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/sprzet/elektronika/</loc>
   </url>
   
   <url>
@@ -52,27 +36,19 @@
   </url>
   
   <url>
-    <loc>/info/</loc>
+    <loc>/wyposazenie/hardware/</loc>
   </url>
   
   <url>
-    <loc>/sprzet/elektronika2/</loc>
+    <loc>/wyposazenie/instrumenty/</loc>
   </url>
   
   <url>
-    <loc>/sprzet/instrumenty2/</loc>
+    <loc>/wyposazenie/mikrofony/</loc>
   </url>
   
   <url>
-    <loc>/sprzet/instrumenty/</loc>
-  </url>
-  
-  <url>
-    <loc>/sprzet/elektronika/mixery/</loc>
-  </url>
-  
-  <url>
-    <loc>/sprzet/elektronika/preampy/</loc>
+    <loc>/oferta/</loc>
   </url>
   
   <url>
@@ -80,12 +56,16 @@
   </url>
   
   <url>
-    <loc>/sprzet/</loc>
+    <loc>/wyposazenie/software/</loc>
   </url>
   
   <url>
     <loc>/tags/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/wyposazenie/</loc>
   </url>
   
 </urlset>

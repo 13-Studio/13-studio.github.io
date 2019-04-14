@@ -55,32 +55,5 @@
       <description>Jakis teledysk Lorem ipsum</description>
     </item>
     
-    <item>
-      <title></title>
-      <link>/sprzet/elektronika2/gitara-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/sprzet/elektronika2/gitara-1/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/sprzet/instrumenty2/gitara-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/sprzet/instrumenty2/gitara-1/</guid>
-      <description>Quisque bibendum malesuada tellus at mattis</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/sprzet/instrumenty/gitara-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/sprzet/instrumenty/gitara-1/</guid>
-      <description> Gitary </description>
-    </item>
-    
   </channel>
 </rss>
