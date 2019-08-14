@@ -3,23 +3,20 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>
-      Hardware - 13 Studio</title>
+      Hardware - 13-Studio</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   
   <link rel="apple-touch-icon" href="icon.png">
 
-  <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="/slick.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 
   
-  <link rel="stylesheet" href="/styles/main.min.f0983bf1e31069ddf30eb04e618058fa1fa1ec12f86425080c7bd1be771e341d.css">
-  <script src="/jquery.min.js"></script>
-  <script src="/slick.min.js"></script>
+  <link rel="stylesheet" href="/styles/main.min.4da0efe1ada02a406c3527d6195b55949297297f0abf7b1ad511052fc24d416f.css">
 </head>
 <body>
-    <header><nav class="nvg">
+    <header id="top-bar"><nav class="nvg">
   <a href="/" class="logo"><img src="/logo.png" alt="13 Studio"/></a>
 
   <input class="menu-btn" type="checkbox" id="menu-btn" />
@@ -27,23 +24,16 @@
 
   <ul class="menu">
     
-    <li><a href="/oferta" title="">Oferta</a></li>
-    
-    <li><a href="/wyposazenie" title="">Wyposażenie</a></li>
-    
-    <li><a href="/realizacje" title="">Realizacje</a></li>
-    
-    <li><a href="/goscie" title="">Goście</a></li>
-    
   </ul>
 </nav>
 </header>
-    <main aria-role="main" class="">
+    
+    <main aria-role="main" class="x-single" style="background-image: url(/wyposazenie/hardware/hardware.jpg)">
 
 <div class="details bs">
   
   
-  <div class="image" style="background-image: url(/wyposazenie/hardware/hardware_hu3e4542fd8daf985a739c91f77ae2d751_532797_960x1280_fill_q75_box_smart1.jpg);">
+  <div class="image" style="background-image: url(/wyposazenie/hardware/hardware_hu3e4542fd8daf985a739c91f77ae2d751_532797_960x1280_fill_q75_box_smart1.jpg)">
   </div>
   
   <div class="content">
@@ -108,6 +98,7 @@
 </div>
 
 </main>
+    
     <footer><ul class="links">
   <li><a href="#"><img src="/yt.png" title="youtube" /></a></li>
   <li><a href="https://www.facebook.com/13-Studio-268143140533691"><img src="/fb.png" title="facebook" /></a></li>
@@ -120,18 +111,34 @@
   <a href="https://goo.gl/maps/1FkofYMn9Y12" target="_blank">
     <img src="/pin.png" alt="Location"/>
   </a>
-  <address>
-    Ujastek 5b<br/>
-    31-752 Kraków<br/>
-    +48 123 456 789
-  </address>
+  <address>Ujastek 5b, 31-752 Kraków / +48 123 456 789</address>
 </div>
 
 <span class="logos">
-  <img src="/footer-img-yellow.png" alt="13 Studio"/>
-  <img src="/footer-img-black.png" alt="13 Studio"/>
   <img src="/footer-img-white.png" alt="13 Studio"/>
+  <img src="/footer-img-black.png" alt="13 Studio"/>
+  <img src="/footer-img-yellow.png" alt="13 Studio"/>
 </span>
 </footer>
   </body>
+
+  <script>
+    (function() {
+      topBar(document.getElementById("top-bar"));
+
+      function topBar(el, height, dflt = 0) {
+        var height = height || el.clientHeight;
+        var prev = window.pageYOffset;
+        window.onscroll = function() {
+          var curr = window.pageYOffset;
+
+          el.style.top = (prev > curr || curr <= height)
+            ? `-${dflt}px`
+            : `-${height}px`;
+
+          prev = curr;
+        }
+      }
+    })();
+  </script>
 </html>
