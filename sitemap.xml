@@ -3,11 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/wyposazenie/hardware/</loc>
+  </url>
+  
+  <url>
+    <loc>/wyposazenie/instrumenty/</loc>
+  </url>
+  
+  <url>
     <loc>/oferta/</loc>
   </url>
   
   <url>
+    <loc>/wyposazenie/software/</loc>
+  </url>
+  
+  <url>
     <loc>/wyposazenie/</loc>
+  </url>
+  
+  <url>
+    <loc>/wyposazenie/mikrofony/</loc>
   </url>
   
   <url>
@@ -40,22 +56,6 @@
   
   <url>
     <loc>/realizacje/teledysk-2/</loc>
-  </url>
-  
-  <url>
-    <loc>/wyposazenie/hardware/</loc>
-  </url>
-  
-  <url>
-    <loc>/wyposazenie/instrumenty/</loc>
-  </url>
-  
-  <url>
-    <loc>/wyposazenie/mikrofony/</loc>
-  </url>
-  
-  <url>
-    <loc>/wyposazenie/software/</loc>
   </url>
   
 </urlset>
