@@ -13,9 +13,10 @@
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 
   
-  <link rel="stylesheet" href="/styles/main.min.2126661624a6e4cc87f90760ba90c9e22d54f7ac506bbae899177d8fcebc042b.css">
+  <link rel="stylesheet" href="/styles/main.min.3c10c3041c9f4f314435ff07e286a59cbc738ba132df794a50d0294494b08f28.css">
 </head>
 <body>
+    <div id="loader-overlay"><img src="/loader.gif" alt="loading" /></div>
     <header id="top-bar"><nav class="nvg">
   <a href="/" class="logo"><img src="/logo.png" alt="13 Studio"/></a>
 
@@ -107,7 +108,10 @@
 
   <script>
     (function() {
-      topBar(document.getElementById("top-bar"));
+      var loader = document.getElementById('loader-overlay');
+      loader.classList.add('done');
+
+      topBar(document.getElementById('top-bar'));
 
       function topBar(el, height, dflt = 0) {
         var height = height || el.clientHeight;
