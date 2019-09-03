@@ -13,10 +13,10 @@
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 
   
-  <link rel="stylesheet" href="/styles/main.min.3c10c3041c9f4f314435ff07e286a59cbc738ba132df794a50d0294494b08f28.css">
+  <link rel="stylesheet" href="/styles/main.min.9e0c973b54589d06026ef940296f504acc5be2d7b4ac71a701e5c5f1951a225c.css">
 </head>
 <body>
-    <div id="loader-overlay"><img src="/loader.gif" alt="loading" /></div>
+    <div id="loader-overlay"></div>
     <header id="top-bar"><nav class="nvg">
   <a href="/" class="logo"><img src="/logo.png" alt="13 Studio"/></a>
 
@@ -92,9 +92,30 @@
 
   <script>
     (function() {
-      var loader = document.getElementById('loader-overlay');
-      loader.classList.add('done');
+      
+      var imgs = document.querySelectorAll('img'),
+          promises = [];
+      for (var i = 0; i < imgs.length; i++) {
+        promises.push(
+          new Promise(function(ok, ko) {
+            if (imgs[i].complete) {
+              ok();
+            } else {
+              imgs[i].addEventListener('load', ok);
+              imgs[i].addEventListener('error', ko);
+            }
+          })
+        );
+      }
 
+      var loader = document.getElementById('loader-overlay');
+      Promise
+        .all(promises)
+        .then(function() {
+          loader.classList.add('done');
+        });
+
+      
       topBar(document.getElementById('top-bar'));
 
       function topBar(el, height, dflt = 0) {
