@@ -13,11 +13,11 @@
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 
   
-  <link rel="stylesheet" href="/styles/main.min.513db942a52cbd33226dd5e65cfb610617aa5e62d41c1e976a8642e732d9a5af.css">
+  <link rel="stylesheet" href="/styles/main.min.16c28206e04308e8c246b8259f576a0507b314cad33100daa3788723a0edf18f.css" integrity="sha256-FsKCBuBDCOjCRrgln1dqBQezFMrTMQDao3iHI6Dt8Y8=">
 </head>
 <body>
     <header id="top-bar">
-      <div id="loader-overlay"></div><nav class="nvg">
+      <nav class="nvg">
   <a href="/" class="logo"><img src="/logo.png" alt="13 Studio"/></a>
 
   <input class="menu-btn" type="checkbox" id="menu-btn" />
@@ -31,7 +31,7 @@
     
     <li><a href="/realizacje" title="">Realizacje</a></li>
     
-    <li><a href="/goscie" title="">Goście</a></li>
+    <li><a href="/galeria" title="">Galeria</a></li>
     
   </ul>
 </nav>
@@ -60,8 +60,8 @@
 <h1 id="komputery">Komputery</h1>
 
 <ul>
-<li>iMac</li>
-<li>MacBook Pro 3,1 GHz Intel Core i7 16 GB 1867 MHz DDR3</li>
+<li>iMac 3,5 GHz Intel Core i7 32 GB</li>
+<li>MacBook Pro 3,1 GHz Intel Core i7 16 GB</li>
 </ul>
 
 <h1 id="konwertery-analogowo-cyfrowe">Konwertery analogowo-cyfrowe</h1>
@@ -81,10 +81,11 @@
 <li>Allen &amp; Heath ZED60-14FX</li>
 </ul>
 
-<h1 id="monitory-odsłuchy">Monitory/odsłuchy</h1>
+<h1 id="monitory-kolumny">Monitory/kolumny</h1>
 
 <ul>
-<li>Genelec</li>
+<li>Genelec 8050B</li>
+<li>Genelec 7070A</li>
 <li>Adam Audio S3H</li>
 <li>Avantgarde Acoustic Zero 1</li>
 <li>EAW RL15</li>
@@ -96,12 +97,41 @@
 <li>Millennia HV-3D 8 Channel SolidState Mic</li>
 <li>API Audio 3124V</li>
 <li>SSL X Logic Alpha VHD Pre</li>
+<li>AMS Neve 1073 DPA Preamp Stereo</li>
 </ul>
 
-<h1 id="equalizery">Equalizery</h1>
+<h1 id="korektory">Korektory</h1>
 
 <ul>
 <li>Manley Massive Passive</li>
+</ul>
+
+<h1 id="kompresory">Kompresory</h1>
+
+<ul>
+<li>SSL 500-Series Bus Compressor MK II</li>
+<li>Shadow Hills Industries Dual Vandergraph Stereo Compressor</li>
+</ul>
+
+<h1 id="systemy-odsłuchu">Systemy odsłuchu</h1>
+
+<ul>
+<li>Sennheiser SR 2050 IEM</li>
+<li>Lehmann Audio Studio Cube</li>
+<li>Sennheiser HD800</li>
+<li>AKG K-712 Pro</li>
+</ul>
+
+<h1 id="krosownice">Krosownice</h1>
+
+<ul>
+<li>Switchcraft StudioPatch 6425</li>
+</ul>
+
+<h1 id="di-boxy-i-splittery">DI-boxy i splittery</h1>
+
+<ul>
+<li>Radial Engineering</li>
 </ul>
 
 <h1 id="stabilizatory-napięcia">Stabilizatory napięcia</h1>
@@ -111,6 +141,8 @@
 </ul>
 
 <h1 id="pełne-okablowanie-mogami">Pełne okablowanie Mogami</h1>
+
+<h1 id="statywy-triad-orbit">Statywy Triad-Orbit</h1>
 </section>
 </div>
 
@@ -128,7 +160,7 @@
   <a href="https://goo.gl/maps/1FkofYMn9Y12" target="_blank">
     <img src="/pin.png" alt="Location"/>
   </a>
-  <address>Ujastek 5b, 31-752 Kraków / +48 123 456 789</address>
+  <address>Ujastek 5b, 31-752 Kraków / <a href="tel:+48 123 456 789">+48 123 456 789</a> / <a href="mailto:office@13-studio.pl">office@13-studio.pl</a></address>
 </div>
 
 <span class="logos">
@@ -137,49 +169,8 @@
   <img src="/footer-img-yellow.png" alt="13 Studio"/>
 </span>
 </footer>
+
+    
+    <script type="text/javascript" src="/scripts/main.min.b222f7c9f8392bce1f013e08fa665cb6c503a5de34a2ea4debe0696ece925e61.js" integrity="sha256-siL3yfg5K84fAT4I&#43;mZctsUDpd40oupN6&#43;Bpbs6SXmE="></script>
   </body>
-
-  <script>
-    (function() {
-      
-      var imgs = document.querySelectorAll('img'),
-          promises = [];
-      for (var i = 0; i < imgs.length; i++) {
-        promises.push(
-          new Promise(function(ok, ko) {
-            if (imgs[i].complete) {
-              ok();
-            } else {
-              imgs[i].addEventListener('load', ok);
-              imgs[i].addEventListener('error', ko);
-            }
-          })
-        );
-      }
-
-      var loader = document.getElementById('loader-overlay');
-      Promise
-        .all(promises)
-        .then(function() {
-          loader.classList.add('done');
-        });
-
-      
-      topBar(document.getElementById('top-bar'));
-
-      function topBar(el, height, dflt = 0) {
-        var height = height || el.clientHeight;
-        var prev = window.pageYOffset;
-        window.onscroll = function() {
-          var curr = window.pageYOffset;
-
-          el.style.top = (prev > curr || curr <= height)
-            ? `-${dflt}px`
-            : `-${height}px`;
-
-          prev = curr;
-        }
-      }
-    })();
-  </script>
 </html>
