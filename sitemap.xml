@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/realizacje/nagranie-1/</loc>
+  </url>
+  
+  <url>
     <loc>/wyposazenie/hardware/</loc>
   </url>
   
@@ -36,10 +40,6 @@
   
   <url>
     <loc>/</loc>
-  </url>
-  
-  <url>
-    <loc>/realizacje/nagranie-1/</loc>
   </url>
   
   <url>
