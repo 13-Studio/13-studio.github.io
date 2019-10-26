@@ -3,128 +3,128 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://13-studio.com/en/equipment/hardware/</loc>
+    <loc>/en/equipment/hardware/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="https://13-studio.com/wyposazenie/hardware/"
+                href="/wyposazenie/hardware/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://13-studio.com/en/equipment/hardware/"
+                href="/en/equipment/hardware/"
                 />
   </url>
   
   <url>
-    <loc>https://13-studio.com/en/offer/</loc>
+    <loc>/en/offer/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="https://13-studio.com/oferta/"
+                href="/oferta/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://13-studio.com/en/offer/"
+                href="/en/offer/"
                 />
   </url>
   
   <url>
-    <loc>https://13-studio.com/en/equipment/</loc>
+    <loc>/en/equipment/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="https://13-studio.com/wyposazenie/"
+                href="/wyposazenie/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://13-studio.com/en/equipment/"
+                href="/en/equipment/"
                 />
   </url>
   
   <url>
-    <loc>https://13-studio.com/en/equipment/software/</loc>
+    <loc>/en/equipment/software/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="https://13-studio.com/wyposazenie/software/"
+                href="/wyposazenie/software/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://13-studio.com/en/equipment/software/"
+                href="/en/equipment/software/"
                 />
   </url>
   
   <url>
-    <loc>https://13-studio.com/en/equipment/microphones/</loc>
+    <loc>/en/equipment/microphones/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="https://13-studio.com/wyposazenie/mikrofony/"
+                href="/wyposazenie/mikrofony/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://13-studio.com/en/equipment/microphones/"
+                href="/en/equipment/microphones/"
                 />
   </url>
   
   <url>
-    <loc>https://13-studio.com/en/recordings/</loc>
+    <loc>/en/recordings/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="https://13-studio.com/realizacje/"
+                href="/realizacje/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://13-studio.com/en/recordings/"
+                href="/en/recordings/"
                 />
   </url>
   
   <url>
-    <loc>https://13-studio.com/en/gallery/</loc>
+    <loc>/en/gallery/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="https://13-studio.com/galeria/"
+                href="/galeria/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://13-studio.com/en/gallery/"
+                href="/en/gallery/"
                 />
   </url>
   
   <url>
-    <loc>https://13-studio.com/en/equipment/instruments/</loc>
+    <loc>/en/equipment/instruments/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="https://13-studio.com/wyposazenie/instrumenty/"
+                href="/wyposazenie/instrumenty/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://13-studio.com/en/equipment/instruments/"
+                href="/en/equipment/instruments/"
                 />
   </url>
   
   <url>
-    <loc>https://13-studio.com/en/</loc>
+    <loc>/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pl"
-                href="https://13-studio.com/"
+                href="/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://13-studio.com/en/"
+                href="/en/"
                 />
   </url>
   
