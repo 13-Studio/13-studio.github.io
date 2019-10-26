@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wyposażenie on 13-Studio</title>
-    <link>/wyposazenie/</link>
+    <link>https://13-studio.com/wyposazenie/</link>
     <description>Recent content in Wyposażenie on 13-Studio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pl-pl</language>
     
-	<atom:link href="/wyposazenie/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://13-studio.com/wyposazenie/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
