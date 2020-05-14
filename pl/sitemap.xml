@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/realizacje/nagranie-1/</loc>
+    <loc>/realizacje/w-przygotowaniu/</loc>
   </url>
   
   <url>
@@ -35,10 +35,6 @@
   </url>
   
   <url>
-    <loc>/realizacje/nagranie-2/</loc>
-  </url>
-  
-  <url>
     <loc>/wyposazenie/software/</loc>
     <xhtml:link
                 rel="alternate"
@@ -64,10 +60,6 @@
                 hreflang="pl"
                 href="/wyposazenie/"
                 />
-  </url>
-  
-  <url>
-    <loc>/realizacje/nagranie-3/</loc>
   </url>
   
   <url>
@@ -99,10 +91,6 @@
   </url>
   
   <url>
-    <loc>/realizacje/nagranie-4/</loc>
-  </url>
-  
-  <url>
     <loc>/galeria/</loc>
     <xhtml:link
                 rel="alternate"
@@ -128,22 +116,6 @@
                 hreflang="pl"
                 href="/wyposazenie/instrumenty/"
                 />
-  </url>
-  
-  <url>
-    <loc>/realizacje/nagranie-5/</loc>
-  </url>
-  
-  <url>
-    <loc>/realizacje/nagranie-6/</loc>
-  </url>
-  
-  <url>
-    <loc>/realizacje/nagranie-7/</loc>
-  </url>
-  
-  <url>
-    <loc>/realizacje/nagranie-8/</loc>
   </url>
   
   <url>
